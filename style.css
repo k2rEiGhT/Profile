@@ -1,5 +1,88 @@
-main {
-background-color: #EFE8DD;    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+header {
 
 }
+
+
+.main {
+    margin: 0;
+    height: auto;
+    background-color: #EFE8DD;
+    font-family: 'Yu Mincho','Zen Maru Gothic';
+}
+.profile {
+    margin-bottom: 30px;
+}
+
+.profile h2{
+    /*font-family: Serif;*/
+    font-family: Satisfy,'Zen Maru Gothic';
+    font-style: italic;
+    font-size: 48px;
+    color: #A1685F;
+    text-align: center ;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.profile img{
+    width: 150px;
+    height: 150px;
+    margin: 0;
+}
+
+.display-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.person-name {
+    font-size: 36px;
+    margin: o;
+}
+
+.introduction {
+    font-size: 18px;
+    width: 600px;
+    margin-top: 5px;
+}
+
+.main li {
+    list-style: none;
+}
+
+.contents {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 100px;
+}
+
+.contents section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    
+}
+
+.footer {
+    margin: 0;
+    height: 80px;
+    background-color: #f0f0f0;
+}
+
+
